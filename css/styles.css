@@ -241,6 +241,17 @@ body {
   flex-basis: calc((100% - 72px) / 4);
 }
 
+.about-list-container {
+  width: 264px;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
 /* ----------WORK--------- */
 .work {
   padding-top: 0;
@@ -259,6 +270,7 @@ body {
 /* ---------TEAM--------- */
 .team {
   background-color: #f4f4fd;
+  padding-bottom: 110px;
 }
 .team-list {
   flex-wrap: wrap;
@@ -309,12 +321,60 @@ body {
 .social-list-icon {
   fill: #f4f4fd;
 }
+/* --------COSTUMERS-------- */
+
+.customers {
+  padding-top: 130px;
+}
+.customers-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.customers-item {
+}
+.customers-link {
+  width: 168px;
+  height: 88px;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.customers-icon {
+  width: 104px;
+  height: 56px;
+  fill: #8e8f99;
+}
+
+.customers-link:hover,
+.customers-link:focus {
+  border-color: var(--main-color);
+}
+
+.customers-link:hover .customers-icon,
+.customers-link:focus .customers-icon {
+  fill: var(--main-color);
+}
 
 /*--------- FOOTER-------- */
 .footer {
   background-color: #2e2f42;
   padding-top: 100px;
   padding-bottom: 100px;
+}
+
+.footer-container {
+  display: flex;
+}
+
+.footer-logo-container {
+  margin-right: 120px;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .footer-logo {
@@ -330,6 +390,42 @@ body {
   max-width: 275px;
 }
 
+.social-media-container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.social-media-text {
+  font-weight: 500;
+  color: var(--title-color);
+  margin-bottom: 16px;
+}
+
+.social-media-list {
+  display: flex;
+  gap: 16px;
+}
+.social-media-item {
+}
+.social-media-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.social-media-link:hover,
+.social-media-link:focus {
+  background-color: #31d0aa;
+}
+.social-media-icon {
+  width: 24px;
+  height: 24px;
+  fill: #f4f4fd;
+}
 /*-----------PORTFOLIO ---------------*/
 
 .portfolio {
