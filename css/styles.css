@@ -203,6 +203,9 @@ body {
     ),
     url(../images/hero/bg.jpg);
   background-size: cover;
+  max-width: 1440px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
 }
 .hero-title {
   font-size: 56px;
@@ -371,10 +374,8 @@ body {
   display: flex;
 }
 
-.footer-logo-container {
+.footer-logo-wrap {
   margin-right: 120px;
-  padding-left: 0;
-  padding-right: 0;
 }
 
 .footer-logo {
@@ -390,9 +391,7 @@ body {
   max-width: 275px;
 }
 
-.social-media-container {
-  padding-left: 0;
-  padding-right: 0;
+.social-media-wrap {
 }
 
 .social-media-text {
